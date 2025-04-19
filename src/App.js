@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-
-// Imports the Amplify library from 'aws-amplify' package. This is used to configure your app to interact with AWS services.
 import { Amplify } from 'aws-amplify';
 
 // Imports the Authenticator and withAuthenticator components from '@aws-amplify/ui-react'.

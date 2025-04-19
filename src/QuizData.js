@@ -1,8 +1,8 @@
 const quizData = [
     {
         question: "What is the CEO of amazon?",
-        options: ["Pong", "Spacewar!", "Tetris", "Jeff Bezzos"],
-        answer: "Spacewar!"
+        options: ["Pong", "Spacewar!", "Tetris", "Jeff Bezos"],
+        answer: "Jeff Bezos"
     },
     {
         question: "Which company developed the first commercial antivirus software?",
