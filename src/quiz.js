@@ -33,7 +33,7 @@ function Quiz() {
     };
 
     return (
-        <div className='quiz' style={{ maxWidth: '600px', margin: '40px auto', padding: '20px', border: '1px solid #ccc', borderRadius: '12px', background: '#f9f9f9' }}>
+        <div className='quiz' style={{ maxWidth: '600px', margin: '40px auto', padding: '20px', border: '1px solid #ccc', borderRadius: '12px', background: '#fff', color: 'black' }}>
             {showScore ? (
                 <div className='score-section' style={{ fontSize: '1.5rem', textAlign: 'center' }}>
                     You scored {score} out of {quizData.length}
@@ -59,7 +59,7 @@ function Quiz() {
                                     checked={selectedAnswer === option}
                                     onChange={() => setSelectedAnswer(option)}
                                 />
-                                {option}
+                                <span>{option}</span>
                             </label>
                         ))}
 
